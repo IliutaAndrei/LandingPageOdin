@@ -84,7 +84,7 @@ button {
     height: 150px;
 }
 
-.illustrations {
+.section-illustrations {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,3 +98,68 @@ button {
     flex-basis: 100px;
     gap: 5px;
 }
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    font-family: light italic;
+    color: #1F2937;
+    height: 600px;
+}   
+
+.section-quote {
+    padding: 0 500px;
+    font-size: 36px;
+}
+
+
+.quote-text {
+    text-align: start;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.section3 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 8px;
+    gap: 40px;
+    color: #E5E7EB;
+    background: #3882F6;
+}
+
+.pop-up button {
+    border:2px solid #E5E7EB;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.pop-up .left-side .title {
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
