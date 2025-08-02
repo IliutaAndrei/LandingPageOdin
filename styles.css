@@ -2,4 +2,32 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Roboto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #1F2937;
+    padding: 8px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
